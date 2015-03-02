@@ -1,9 +1,14 @@
 # Xpra-html-client
-HTML5 client abstraction
+
+Xpra library to make HTML5 clients
 
 Largely copied and adapted from [http://xpra.org/trac/ticket/473](http://xpra.org/trac/ticket/473)
 
-No usable version yet, project under heavy development.
+Not realy usable yet, project under heavy development.
+
+A demo project is using it right now, but in heavy development too : [DexTop](https://github.com/Champii/DexTop)
+
+Released under [GPLv2](https://github.com/Champii/Xpra-html-client/blob/master/LICENSE.txt)
 
 ___
 # Concept
@@ -16,9 +21,9 @@ This library is `Event` based and try to provide a full and easy-to-learn encaps
 
 Its core allows to deal with high-level `Window` encapsulations.
 
-
 ___
 # Features
+
 - Window object encapsulation
 - Event based interactions
 - Keyboard inputs
@@ -26,6 +31,13 @@ ___
 
 ___
 # Getting started
+
+Check how to install xpra server: [http://xpra.org/](http://xpra.org/)
+
+```
+$> websockify  8080 localhost:10000&
+$> xpra start :10 --bind-tcp=0.0.0.0:10000
+```
 
 Here is a snippet to show how to use this library :
 
@@ -48,6 +60,7 @@ Here is a snippet to show how to use this library :
 ```
 
 Supported events from now :
+
 - On client itselft :
   - 'new-window'
 
@@ -63,4 +76,5 @@ ___
 - Window on close
 - Configuration
 - Mouse
--
+- Focus
+
