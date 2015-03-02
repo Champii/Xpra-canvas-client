@@ -1,138 +1,12 @@
-screen_width = document.body.scrollWidth
-screen_height = document.body.scrollHeight
-
-get_desktop_size = ->
-  [
-    screen_width
-    screen_height
-  ]
-
-get_screen_sizes = ->
-  dpi = 96
-
-  ###
-  equivallent GTK code:
-  monitor = plug_name, geom.x, geom.y, geom.width, geom.height, wmm, hmm
-  monitors.append(monitor)
-
-  screen = (screen.make_display_name(), screen.get_width(), screen.get_height(),
-      screen.get_width_mm(), screen.get_height_mm(),
-      monitors,
-      work_x, work_y, work_width, work_height)
-  ###
-
-  wmm = Math.round(screen_width * 25.4 / dpi)
-  hmm = Math.round(screen_height * 25.4 / dpi)
-  monitor = [
-    'Canvas'
-    0
-    0
-    screen_width
-    screen_height
-    wmm
-    hmm
-  ]
-  screen = [
-    'HTML'
-    screen_width
-    screen_height
-    wmm
-    hmm
-    [ monitor ]
-    0
-    0
-    screen_width
-    screen_height
-  ]
-  #just a single screen:
-  [ screen ]
-
-get_keycodes = ->
-  #keycodes.append((nn(keyval), nn(name), nn(keycode), nn(group), nn(level)))
-  keycodes = []
-  kc = undefined
-  for keycode of CHARCODE_TO_NAME
-    kc = parseInt(keycode)
-    keycodes.push [
-      kc
-      CHARCODE_TO_NAME[keycode]
-      kc
-      0
-      0
-    ]
-  #show("keycodes="+keycodes.toSource());
-  keycodes
-
-get_keyboard_layout = ->
-  v = window.navigator.userLanguage || window.navigator.language
-  v = v.split(",")[0]
-  l = v.split("-", 2)
-  if l.length is 1
-    l = v.split("_", 2)
-  if l.length is 1
-    return ""
-
-  return l[1].toLowerCase()
-
 class Xpra extends EventEmitter
 
-  constructor: (url) ->
-    @ws = new Websock url
+  constructor: (host, port) ->
+    @ws = new Websock
 
     @ws.on 'open', (data) =>
-      console.log 'open', data
-
-      @proto = new Protocole @ws
-
-      @proto.handlers['hello'] = (args) =>
-        console.log 'GOT HELLO !'
-
-      @proto.handlers['new-window'] = (args) =>
-        console.log 'NEW WINDOW', args
-
-        @emit 'new-window',
-          wid: args[1]
-          width: args[4]
-          height: args[5]
-
-        toSend = args[0..6]
-        # toSend[6] = args[7]
-        toSend[0] = 'map-window'
-        toSend[6]["encodings.rgb_formats"] = ["RGBX", "RGBA"]
-
-        # toSend[4] /= 2
-        # toSend[5] /= 2
-
-        console.log args, toSend
-        @proto.Send.apply @, toSend
-
-      @proto.handlers['ping'] = (args) =>
-        @proto.Send.apply @, ['ping_echo', args[1], 0, 0, 0, 0]
-
-      @proto.handlers['draw'] = (args) =>
-        console.log 'Draw !'
-
-        img = args[7]
-        if typeof img is 'string'
-          uint = new Uint8ClampedArray(img.length);
-          for i in [0...img.length]
-            uint[i] = img .charCodeAt(i);
-
-          img  = uint;
-
-        args[7] = new Zlib.Inflate(img).decompress();
-
-        @emit 'test-draw', args
-
-        # fixme: get the decode time
-        toSend = []
-        toSend.push 'damage-sequence'
-        toSend.push args[1]
-        toSend.push args[8]
-        toSend.push args[4]
-        toSend.push args[5]
-        toSend.push 0
-        @proto.Send.apply @, toSend
+      @handlers = new XpraHandlers @
+      @proto = new Protocole @ws, @handlers
+      @keyboad = new Keyboard @
 
       @_SendHello()
 
@@ -142,9 +16,86 @@ class Xpra extends EventEmitter
     @ws.on 'error', (data) ->
       console.log 'err', data
 
-    @ws.open 'ws://1.1.1.7:8080/', ['binary']
+    @ws.open 'ws://' + host + ':' + port + '/', ['binary']
 
+  #FIXME: to move into a whole new class for better clarity
   _SendHello: ->
+    screen_width = document.body.scrollWidth
+    screen_height = document.body.scrollHeight
+
+    get_desktop_size = ->
+      [
+        screen_width
+        screen_height
+      ]
+
+    get_screen_sizes = ->
+      dpi = 96
+
+      ###
+      equivallent GTK code:
+      monitor = plug_name, geom.x, geom.y, geom.width, geom.height, wmm, hmm
+      monitors.append(monitor)
+
+      screen = (screen.make_display_name(), screen.get_width(), screen.get_height(),
+          screen.get_width_mm(), screen.get_height_mm(),
+          monitors,
+          work_x, work_y, work_width, work_height)
+      ###
+
+      wmm = Math.round(screen_width * 25.4 / dpi)
+      hmm = Math.round(screen_height * 25.4 / dpi)
+      monitor = [
+        'Canvas'
+        0
+        0
+        screen_width
+        screen_height
+        wmm
+        hmm
+      ]
+      screen = [
+        'HTML'
+        screen_width
+        screen_height
+        wmm
+        hmm
+        [ monitor ]
+        0
+        0
+        screen_width
+        screen_height
+      ]
+      #just a single screen:
+      [ screen ]
+
+    get_keycodes = ->
+      #keycodes.append((nn(keyval), nn(name), nn(keycode), nn(group), nn(level)))
+      keycodes = []
+      kc = undefined
+      for keycode of CHARCODE_TO_NAME
+        kc = parseInt(keycode)
+        keycodes.push [
+          kc
+          CHARCODE_TO_NAME[keycode]
+          kc
+          0
+          0
+        ]
+      #show("keycodes="+keycodes.toSource());
+      keycodes
+
+    get_keyboard_layout = ->
+      v = window.navigator.userLanguage || window.navigator.language
+      v = v.split(",")[0]
+      l = v.split("-", 2)
+      if l.length is 1
+        l = v.split("_", 2)
+      if l.length is 1
+        return ""
+
+      return l[1].toLowerCase()
+
     @proto.Send 'hello',
       "version"         : "0.15.0",
       "platform"          : "linux2"
@@ -206,3 +157,4 @@ class Xpra extends EventEmitter
       "system_tray"       : true
       #we cannot handle this (GTK only):
       "named_cursors"       : false
+

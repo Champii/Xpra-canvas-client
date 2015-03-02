@@ -30,7 +30,7 @@
 Websock_native = true;
 
 
-function Websock(url) {
+function Websock(host, port) {
 "use strict";
 
 var api = {},         // Public API
@@ -49,7 +49,6 @@ var api = {},         // Public API
     },
 
     test_mode = false;
-
 
 //
 // Queue public functions
@@ -265,13 +264,13 @@ function init(protocols) {
     websocket  = null;
 }
 
-function open(uri, protocols) {
+function open(url, protocols) {
     init();
 
     if (test_mode) {
         websocket = {};
     } else {
-        websocket = new WebSocket(uri, protocols);
+        websocket = new WebSocket(url, protocols);
         if (protocols.indexOf('binary') >= 0) {
             websocket.binaryType = 'arraybuffer';
         }

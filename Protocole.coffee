@@ -3,7 +3,7 @@ class Protocole
   packets: {}
   handlers: {}
 
-  constructor: (@ws) ->
+  constructor: (@ws, @handlers) ->
     @ws.on 'message', =>
       if not @ws.rQwait "", 8, 0
         @ProcessBuffer()
@@ -25,6 +25,7 @@ class Protocole
     header = header.concat(cdata);
 
     @ws.send(header);
+    console.log 'Sent', message
 
   ProcessBuffer: ->
     header = @ws.rQpeekBytes 8
@@ -86,10 +87,11 @@ class Protocole
       # console.log("received a " + packet_type + " packet");
 
       fn = @handlers[packet_type];
+      console.log @handlers
       if (fn==undefined)
         console.error("no packet handler for "+packet_type+"!");
       else
-        fn(packet);
+        fn.call @handlers, packet
     catch e
       console.error("error processing '"+packet_type+"' with '"+fn+"': "+e);
       throw e;
