@@ -1,0 +1,1753 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Init",
+				"InitXpra"
+			],
+			[
+				"off",
+				"offscreen"
+			],
+			[
+				"packet_",
+				"packet_handlers"
+			],
+			[
+				"scree",
+				"screen_width"
+			],
+			[
+				"interven",
+				"interventionToken"
+			],
+			[
+				"show",
+				"showValidation"
+			],
+			[
+				"conversa",
+				"conversationSave"
+			],
+			[
+				"root",
+				"rootScope	\\$rootScope"
+			],
+			[
+				"new",
+				"newUserData"
+			],
+			[
+				"cook",
+				"cookieParser"
+			],
+			[
+				"session",
+				"sessionStore"
+			],
+			[
+				"sess",
+				"sessionStore"
+			],
+			[
+				"conv",
+				"converService"
+			],
+			[
+				"newPl",
+				"newPlace"
+			],
+			[
+				"f",
+				"formatted_address"
+			],
+			[
+				"mo",
+				"modal"
+			],
+			[
+				"newp",
+				"newPlaceName"
+			],
+			[
+				"newPla",
+				"newPlaceName"
+			],
+			[
+				"set",
+				"setCurrentMain"
+			],
+			[
+				"veh",
+				"vehicles"
+			],
+			[
+				"vehi",
+				"vehicleService"
+			],
+			[
+				"vehicle",
+				"vehicles"
+			],
+			[
+				"v",
+				"vehicleService"
+			],
+			[
+				"admin-carn",
+				"admin-carnet-vehicle-selector-tpl"
+			],
+			[
+				"bir",
+				"birthdayYear"
+			],
+			[
+				"bird",
+				"birthdayMonth"
+			],
+			[
+				"token",
+				"tokenSecret"
+			],
+			[
+				"pr",
+				"profil"
+			],
+			[
+				"co",
+				"conv_id"
+			],
+			[
+				"par",
+				"parseJSONCookie"
+			],
+			[
+				"parse",
+				"parseSignedCookie"
+			],
+			[
+				"pase",
+				"parseJSONCookie"
+			],
+			[
+				"aut",
+				"authorizeSocket"
+			],
+			[
+				"send",
+				"sendError"
+			],
+			[
+				"conversatio",
+				"conversationService"
+			],
+			[
+				"signin",
+				"signincontainer"
+			],
+			[
+				"connec",
+				"connection"
+			],
+			[
+				"Get",
+				"GetHour"
+			],
+			[
+				"hour",
+				"hourArray"
+			],
+			[
+				"hou",
+				"hourArray"
+			],
+			[
+				"account",
+				"account-admin-tpl"
+			],
+			[
+				"curr",
+				"currentStep"
+			],
+			[
+				"current",
+				"currentSteps"
+			],
+			[
+				"location",
+				"locationService"
+			],
+			[
+				"inter",
+				"interventionService"
+			],
+			[
+				"profile",
+				"profileUrl"
+			],
+			[
+				"pro",
+				"profileUrl"
+			],
+			[
+				"Fetch",
+				"FetchByLogin"
+			],
+			[
+				"s",
+				"symptoms"
+			],
+			[
+				"fakeNo",
+				"fakeNotificationSave"
+			],
+			[
+				"interve",
+				"interventionService"
+			],
+			[
+				"noti",
+				"notificationService"
+			],
+			[
+				"modal",
+				"modalService"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"Fet",
+				"FetchByLogin"
+			],
+			[
+				"mad",
+				"mad-mecano-list"
+			],
+			[
+				"appl",
+				"applyChanges"
+			],
+			[
+				"first",
+				"firstTypo"
+			],
+			[
+				"se",
+				"sectionId"
+			],
+			[
+				"liveEd",
+				"liveEdit_createData"
+			],
+			[
+				"bp_page",
+				"bp_page_order"
+			],
+			[
+				"bpEdit_men",
+				"bpEdit_menuSections"
+			],
+			[
+				"GLOBAL_dom",
+				"GLOBAL_dom_panel"
+			],
+			[
+				"GLOBAL_dom_",
+				"GLOBAL_dom_menuH"
+			],
+			[
+				"GLO",
+				"GLOBAL_dom_pages"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"liveEdit",
+				"liveEditForm"
+			],
+			[
+				"title",
+				"titleVisible"
+			],
+			[
+				"section",
+				"sectionId"
+			],
+			[
+				"last",
+				"lastNum"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"empt",
+				"emptyStr"
+			],
+			[
+				"init",
+				"initTogglePress"
+			],
+			[
+				"bloc",
+				"blocPress"
+			],
+			[
+				"start",
+				"startPos"
+			],
+			[
+				"nb",
+				"nbLines"
+			],
+			[
+				"form",
+				"formSubmit"
+			],
+			[
+				"year",
+				"yearDataId"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"getEle",
+				"getElementsByTagName"
+			],
+			[
+				"sele",
+				"selectsInit"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"date",
+				"date_cle_content"
+			],
+			[
+				"next",
+				"nextElementSibling"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"num",
+				"numbers"
+			],
+			[
+				"ani",
+				"animDuration"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"paddingBottom"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"paddingTop"
+			],
+			[
+				"firs",
+				"firstDiv"
+			],
+			[
+				"easin",
+				"easeInCubic"
+			],
+			[
+				"ease",
+				"easeInOutQuad"
+			],
+			[
+				"dur",
+				"duration"
+			],
+			[
+				"remove",
+				"removeChild"
+			],
+			[
+				"menu",
+				"menuDiv"
+			],
+			[
+				"lastE",
+				"lastElementChild"
+			],
+			[
+				"fir",
+				"firstElementChild"
+			],
+			[
+				"nex",
+				"nextElementSibling"
+			],
+			[
+				"elem",
+				"elemPage"
+			],
+			[
+				"page",
+				"pagesContainer"
+			],
+			[
+				"offer",
+				"offerCurr"
+			],
+			[
+				"pages",
+				"page_business"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"number",
+				"numberKeys"
+			],
+			[
+				"call",
+				"callfront"
+			],
+			[
+				"live",
+				"liveEdit_createData"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"Market",
+				"MarketPairValuesResource"
+			],
+			[
+				"market",
+				"marketPairDb"
+			],
+			[
+				"slow",
+				"slowEma"
+			],
+			[
+				"macd",
+				"macdHisto"
+			],
+			[
+				"fast",
+				"fastEma"
+			],
+			[
+				"candle",
+				"candleData"
+			],
+			[
+				"curre",
+				"currentO"
+			],
+			[
+				"pair",
+				"pairValue"
+			],
+			[
+				"Up",
+				"UpdatePairValue"
+			],
+			[
+				"Upda",
+				"UpdateEma"
+			],
+			[
+				"algo",
+				"algo_params"
+			],
+			[
+				"De",
+				"DefaultBalances"
+			],
+			[
+				"route",
+				"routeParams"
+			],
+			[
+				"bot",
+				"botsService"
+			],
+			[
+				"Res",
+				"UserResource"
+			],
+			[
+				"panel",
+				"panel-title"
+			],
+			[
+				"avail",
+				"availablePair"
+			],
+			[
+				"Canc",
+				"CancelOrder"
+			],
+			[
+				"thre",
+				"thresholdUp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"js2",
+				"JS2Coffee: Convert & Make New File"
+			],
+			[
+				"js2c",
+				"JS2Coffee: Convert & Overwrite Current File"
+			],
+			[
+				"synt coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"synt ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"synta h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax ej",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"syntax ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"syntac ",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"repl coff",
+				"SublimeREPL: CoffeeScript"
+			],
+			[
+				"REPL coffee",
+				"SublimeREPL: CoffeeScript"
+			],
+			[
+				"repl co",
+				"SublimeREPL: CoffeeScript"
+			],
+			[
+				"synt ejs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"synt coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"synt javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt js",
+				"Set Syntax: JSON"
+			],
+			[
+				"synt java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ejs",
+				"Set Syntax: EJS (<? and ?>)"
+			],
+			[
+				"EJS",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"REPL",
+				"SublimeREPL: Node"
+			],
+			[
+				"synt co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"synt jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"synt ja",
+				"Set Syntax: Java"
+			],
+			[
+				"synt cof",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"syn coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"repl cofe",
+				"SublimeREPL: CoffeeScript"
+			],
+			[
+				"syn js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"repl no",
+				"SublimeREPL: Node"
+			],
+			[
+				"syn co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"ex",
+				"Extempore: Connect"
+			],
+			[
+				"e",
+				"Extempore: Connect"
+			],
+			[
+				"exte",
+				"Extempore: Connect"
+			],
+			[
+				"synt ext",
+				"Set Syntax: Extempore"
+			],
+			[
+				"repl p",
+				"SublimeREPL: PHP"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"node",
+				"SublimeREPL: Node"
+			],
+			[
+				"replnod",
+				"SublimeREPL: Node"
+			],
+			[
+				"syn sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"nopde",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"coffee",
+				"Coffee: Run Script"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"repl n",
+				"SublimeREPL: Node"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"repl node",
+				"SublimeREPL: Node"
+			],
+			[
+				"reple",
+				"SublimeREPL: Perl"
+			],
+			[
+				"REPL ",
+				"SublimeREPL: CoffeScript"
+			],
+			[
+				"repl",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package in",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"file_history":
+	[
+		"/home/champii/prog/js/DexTop/client/public/js/index.coffee_bak",
+		"/tmp/2.txt",
+		"/tmp/1.txt",
+		"/home/champii/prog/js/DexTop/client/index.jade",
+		"/home/champii/prog/js/DexTop/client/public/js/xpra/charcodes.coffee",
+		"/home/champii/prog/js/DexTop/main.coffee",
+		"/home/champii/prog/js/DexTop/client/public/js/bencode.coffee",
+		"/home/champii/prog/js/DexTop/client/public/js/DexTop/DexTop.coffee",
+		"/home/champii/prog/js/DexTop/client/public/js/bencode.js",
+		"/home/champii/prog/js/xpra/index.html",
+		"/home/champii/prog/js/xpra/index.js",
+		"/home/champii/prog/js/mecanicadom/public/css/inbox.less",
+		"/home/champii/prog/js/mecanicadom/public/css/thread.less",
+		"/home/champii/prog/js/mecanicadom/public/css/main.css",
+		"/home/champii/prog/js/mecanicadom/server/resources/InterventionResource.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/admin-mail.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/interventions_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-mail.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-mail_inbox.ejs",
+		"/home/champii/prog/js/mecanicadom/server/processors/intervention_pay.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/location.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/location.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/conversations_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/interventions-list.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/symptom.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/symptom.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/carnet/admin-carnet-tabs-vehicle.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/carnet/admin-carnet-tabs-vehicle.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/carnet/admin-carnet-vehicle-selector.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/signup.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/auth_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/mecano-list.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/vehicle.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/carnet/admin-carnet-vehicle-selector.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/signin.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/vehicle.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/signup.ejs",
+		"/home/champii/prog/js/mecanicadom/package.json",
+		"/home/champii/prog/js/mecanicadom/settings/config",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/validation.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/order-sum.ejs",
+		"/home/champii/prog/js/mecanicadom/settings/assets.json",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/mecano-list.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/validation.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/index.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/order-sum.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/signin.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/menu.coffee",
+		"/home/champii/prog/js/mecanicadom/server/socket/socket.coffee",
+		"/home/champii/prog/js/mecanicadom/server/resources/MessageResource.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/helpers/date-helper.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/mecano-detail.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/page-manager.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/evaluations.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/evaluations_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/mecanos_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/mecano-detail.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/admin-eval.coffee",
+		"/home/champii/prog/js/mecanicadom/server/resources/EvaluationResource.coffee",
+		"/home/champii/prog/js/mecanicadom/server/utils/server.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/marks_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/resources/MarkResource.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/connectors/mecanicadom.sql",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-eval.ejs",
+		"/home/champii/prog/js/mecanicadom/server/routes/users_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/resources/MecanoResource.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/connectors/sql/Mysql.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/socket.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/signin.ejs",
+		"/home/champii/prog/js/mecanicadom/server/resources/ConversationResource.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/index.coffee",
+		"/home/champii/prog/js/mecanicadom/server/processors/finalize_intervention.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/api_404_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/api_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/cities_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/geo/geo.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/geo_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/index.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-interventions.ejs",
+		"/home/champii/prog/js/mecanicadom/server/routes/data_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/notif_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/routes/vehicles_routes.coffee",
+		"/home/champii/prog/js/mecanicadom/server/processors/intervention_summary.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/my-vehicle.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/my-vehicle.coffee",
+		"/home/champii/prog/js/mecanicadom/server/resources/VehicleResource.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/carnet/admin-carnet-tabs-history.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/carnet/admin-carnet-tabs-deadlines.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/carnet/admin-carnet-tabs.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-carnet.ejs",
+		"/home/champii/prog/js/mecanicadom/server/storage/VehicleDb.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/carnet/admin-carnet-tabs-history.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/carnet/admin-carnet-tabs-deadlines.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/carnet/admin-carnet-tabs.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/admin-carnet.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/connectors/autos.json",
+		"/home/champii/prog/js/mecanicadom/server/storage/connectors/sql/index.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/users.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-profil.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/intervention-detail.coffee",
+		"/home/champii/prog/js/mecanicadom/server/resources/UserResource.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/admin-profil.coffee",
+		"/home/champii/prog/js/mecanicadom/node_modules/ejs/test/fixtures/user.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/account.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/user-admin.ejs",
+		"/home/champii/prog/js/mecanicadom/server/bus/Bus.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/account.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/menu.ejs",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/modal.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/connectors/sql/SqlMem.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/payement.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/MessageDb.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/ConversationDb.coffee",
+		"/home/champii/prog/js/mecanicadom/node_modules/cookie-parser/index.js",
+		"/home/champii/prog/js/mecanicadom/node_modules/cookie-parser/package.json",
+		"/home/champii/prog/js/mecanicadom/server/test/interventions.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/admin-planning.coffee",
+		"/home/champii/prog/js/mecanicadom/server/storage/MecanoDb.coffee",
+		"/home/champii/prog/js/mecanicadom/public/css/signup.css",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-nav.ejs",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/admin-planning.ejs",
+		"/home/champii/prog/js/mecanicadom/server/storage/InterventionDb.coffee",
+		"/home/champii/prog/js/mecanicadom/public/css/signin.css",
+		"/home/champii/prog/js/mecanicadom/server/storage/UserDb.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/mecano-admin.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/user-admin.coffee",
+		"/home/champii/prog/js/mecanicadom/public/js/coffee/settings/admin-nav.coffee",
+		"/home/champii/prog/js/mecanicadom/public/views/templates/settings/mecano-admin.ejs"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/tmp/autodiagnostic/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Web1",
+			"a",
+			"jour",
+			"Etape",
+			"Exercice",
+			"get_screen_sizes",
+			"args",
+			"]",
+			",",
+			"packet",
+			"arrayBuffer",
+			"img_data",
+			",",
+			"raw_packets",
+			"packet_handlers",
+			"show(",
+			" error(",
+			"error(",
+			"raw_packets",
+			"process_packet",
+			"eventHandlers",
+			"log",
+			"debug",
+			"header",
+			"debug",
+			"buf",
+			"var ",
+			"ws.",
+			"//",
+			"var ",
+			",\n",
+			",",
+			".on",
+			"ws.onmessage",
+			".on",
+			"  'use strict'\n",
+			"proto",
+			"//",
+			"test",
+			"canvas",
+			"\n    ",
+			"win",
+			"      draggable: true\n",
+			",",
+			"true",
+			"get_bool",
+			"parse_port",
+			"var ",
+			";",
+			") {",
+			"function ",
+			"}",
+			"//",
+			"() {",
+			"function ",
+			"//",
+			"==",
+			"packet",
+			";",
+			"var ",
+			"//",
+			"===",
+			"head",
+			"do_start",
+			"params",
+			"port",
+			"span",
+			"price",
+			": {",
+			"],\n  }",
+			"symptoms",
+			"    ",
+			"\"",
+			"            ",
+			"\n",
+			"{Diagnostic",
+			"Diagnostic ",
+			"plaquettes",
+			"Diagnostic plaquettes",
+			"Diagnostic ",
+			"pull-right",
+			"{\n",
+			"label",
+			".pending",
+			".label",
+			"label",
+			"dateSave",
+			"e.vehicle.cu",
+			"signin",
+			"MecanoResource",
+			"results",
+			"createInterventionSignup",
+			"scope.message",
+			"a ng-click=\"auth",
+			".end(),",
+			"res.send ",
+			"body.user",
+			"href",
+			"auth",
+			"req.session.newUserData.",
+			"req.session.newUserData",
+			"passport.authenticate",
+			"results.saveUser",
+			"results.user",
+			"$location",
+			"evaluation",
+			"markService",
+			"auth(",
+			"req.body.",
+			"toggleMap",
+			"res.send 200,",
+			"res.send 403",
+			"send 200",
+			"res.send 403 ",
+			"res.send 200,",
+			"res.send 200",
+			"res.send 400 ",
+			"res.send 500 ",
+			"res.send 200,",
+			"send 403 if",
+			"send 200, address",
+			"send 403",
+			"req",
+			",",
+			"//",
+			"token",
+			"rand",
+			"geoService"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"log.Error err",
+			"log.Error",
+			"log.Log",
+			"Bot",
+			"$conditions['",
+			"$conditions['User.",
+			"(",
+			".conversation",
+			"Conversation",
+			"conversation",
+			"Conversation",
+			"conversation",
+			"",
+			"Document",
+			"idxName",
+			"doc",
+			"Document",
+			"idxName",
+			"driver.",
+			"Document",
+			"SmtpServer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"b",
+				"client/public/js/bencode.coffee"
+			],
+			[
+				"benco",
+				"client/public/js/bencode.coffee"
+			],
+			[
+				"mai",
+				"main.coffee"
+			],
+			[
+				"be",
+				"client/public/js/bencode.coffee"
+			],
+			[
+				"benc",
+				"client/public/js/bencode.coffee"
+			],
+			[
+				"auth",
+				"server/routes/auth_routes.coffee"
+			],
+			[
+				"adminmai",
+				"public/views/templates/settings/admin-mail.ejs"
+			],
+			[
+				"mail",
+				"public/js/coffee/settings/admin-mail.coffee"
+			],
+			[
+				"order",
+				"public/views/templates/order-sum.ejs"
+			],
+			[
+				"routes",
+				"server/routes/data_routes.coffee"
+			],
+			[
+				"storage/s",
+				"server/storage/connectors/symptoms.json"
+			],
+			[
+				"sympto",
+				"public/js/coffee/symptom.coffee"
+			],
+			[
+				"main.css",
+				"public/css/main.css"
+			],
+			[
+				"interre",
+				"server/resources/InterventionResource.coffee"
+			],
+			[
+				"adminmail",
+				"public/js/coffee/settings/admin-mail.coffee"
+			],
+			[
+				"interrou",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"interres",
+				"server/resources/InterventionResource.coffee"
+			],
+			[
+				"interv",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"conversa",
+				"server/routes/conversations_routes.coffee"
+			],
+			[
+				"loca",
+				"public/js/coffee/location.coffee"
+			],
+			[
+				"location",
+				"public/views/templates/location.ejs"
+			],
+			[
+				"adminmaile",
+				"public/views/templates/settings/admin-mail.ejs"
+			],
+			[
+				"vehicl",
+				"public/views/templates/vehicle.ejs"
+			],
+			[
+				"tabs",
+				"public/views/templates/settings/carnet/admin-carnet-tabs-vehicle.ejs"
+			],
+			[
+				"authro",
+				"server/routes/auth_routes.coffee"
+			],
+			[
+				"tabsve",
+				"public/views/templates/settings/carnet/admin-carnet-tabs-vehicle.ejs"
+			],
+			[
+				"carnet",
+				"public/js/coffee/settings/carnet/admin-carnet-tabs-vehicle.coffee"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"signup",
+				"public/views/templates/signup.ejs"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"ordersu",
+				"public/views/templates/order-sum.ejs"
+			],
+			[
+				"messagere",
+				"server/resources/MessageResource.coffee"
+			],
+			[
+				"sym",
+				"public/views/templates/symptom.ejs"
+			],
+			[
+				"sympt",
+				"public/js/coffee/symptom.coffee"
+			],
+			[
+				"vehic",
+				"public/js/coffee/vehicle.coffee"
+			],
+			[
+				"server",
+				"server/utils/server.coffee"
+			],
+			[
+				"vehicle",
+				"public/views/templates/vehicle.ejs"
+			],
+			[
+				"message",
+				"server/resources/MessageResource.coffee"
+			],
+			[
+				"converre",
+				"server/resources/ConversationResource.coffee"
+			],
+			[
+				"admma",
+				"public/js/coffee/settings/admin-mail.coffee"
+			],
+			[
+				"conver",
+				"server/routes/conversations_routes.coffee"
+			],
+			[
+				"adminma",
+				"public/views/templates/settings/admin-mail.ejs"
+			],
+			[
+				"converro",
+				"server/routes/conversations_routes.coffee"
+			],
+			[
+				"date",
+				"public/js/coffee/helpers/date-helper.coffee"
+			],
+			[
+				"socket",
+				"public/js/coffee/socket.coffee"
+			],
+			[
+				"config",
+				"settings/config"
+			],
+			[
+				"signin",
+				"public/views/templates/signin.ejs"
+			],
+			[
+				"signu",
+				"public/views/templates/signup.ejs"
+			],
+			[
+				"sign",
+				"public/js/coffee/signin.coffee"
+			],
+			[
+				"eval",
+				"server/routes/evaluations_routes.coffee"
+			],
+			[
+				"mys",
+				"server/storage/connectors/sql/Mysql.coffee"
+			],
+			[
+				"interve",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"admin",
+				"public/js/coffee/settings/admin-mail.coffee"
+			],
+			[
+				"serve",
+				"server/utils/server.coffee"
+			],
+			[
+				"sql",
+				"server/storage/connectors/mecanicadom.sql"
+			],
+			[
+				"interr",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"adminm",
+				"public/views/templates/settings/admin-mail.ejs"
+			],
+			[
+				"mecano",
+				"server/resources/MecanoResource.coffee"
+			],
+			[
+				"inter",
+				"server/resources/InterventionResource.coffee"
+			],
+			[
+				"userrou",
+				"server/routes/users_routes.coffee"
+			],
+			[
+				"mecasq",
+				"server/storage/connectors/mecanicadom.sql"
+			],
+			[
+				"route",
+				"server/routes/conversations_routes.coffee"
+			],
+			[
+				"page",
+				"public/js/coffee/page-manager.coffee"
+			],
+			[
+				"locat",
+				"public/js/coffee/location.coffee"
+			],
+			[
+				"coffeeinde",
+				"public/js/coffee/index.coffee"
+			],
+			[
+				"resour",
+				"server/resources/MarkResource.coffee"
+			],
+			[
+				"assets",
+				"settings/assets.json"
+			],
+			[
+				"admin-eva",
+				"public/views/templates/settings/admin-eval.ejs"
+			],
+			[
+				"marks",
+				"server/routes/marks_routes.coffee"
+			],
+			[
+				"signup.",
+				"public/views/templates/signup.ejs"
+			],
+			[
+				"authrou",
+				"server/routes/auth_routes.coffee"
+			],
+			[
+				"mecali",
+				"public/views/templates/mecano-list.ejs"
+			],
+			[
+				"cities",
+				"server/routes/cities_routes.coffee"
+			],
+			[
+				"geor",
+				"server/routes/geo_routes.coffee"
+			],
+			[
+				"geo",
+				"server/geo/geo.coffee"
+			],
+			[
+				"sock",
+				"server/socket/socket.coffee"
+			],
+			[
+				"convers",
+				"server/routes/conversations_routes.coffee"
+			],
+			[
+				"aut",
+				"server/routes/auth_routes.coffee"
+			],
+			[
+				"socket.",
+				"server/socket/socket.coffee"
+			],
+			[
+				"conversrou",
+				"server/routes/conversations_routes.coffee"
+			],
+			[
+				"interroute",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"intervenrou",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"mecaroute",
+				"server/routes/mecanos_routes.coffee"
+			],
+			[
+				"mecanorou",
+				"server/resources/MecanoResource.coffee"
+			],
+			[
+				"georo",
+				"server/routes/geo_routes.coffee"
+			],
+			[
+				"adminint",
+				"public/views/templates/settings/admin-interventions.ejs"
+			],
+			[
+				"admine",
+				"public/views/templates/settings/admin-eval.ejs"
+			],
+			[
+				".sql",
+				"server/storage/connectors/mecanicadom.sql"
+			],
+			[
+				"mecanica",
+				"server/storage/connectors/mecanicadom.sql"
+			],
+			[
+				"mysq",
+				"server/storage/connectors/sql/Mysql.coffee"
+			],
+			[
+				"index.ejs",
+				"public/views/index.ejs"
+			],
+			[
+				"pagem",
+				"public/js/coffee/page-manager.coffee"
+			],
+			[
+				"signupe",
+				"public/views/templates/signup.ejs"
+			],
+			[
+				"orders",
+				"public/js/coffee/order-sum.coffee"
+			],
+			[
+				"user.ejs",
+				"node_modules/ejs/test/fixtures/user.ejs"
+			],
+			[
+				"userres",
+				"server/resources/UserResource.coffee"
+			],
+			[
+				"datehel",
+				"public/js/coffee/helpers/date-helper.coffee"
+			],
+			[
+				"admin-ma",
+				"public/js/coffee/settings/admin-mail.coffee"
+			],
+			[
+				"user",
+				"public/js/coffee/users.coffee"
+			],
+			[
+				"userreso",
+				"server/resources/UserResource.coffee"
+			],
+			[
+				"userroute",
+				"server/routes/users_routes.coffee"
+			],
+			[
+				"userro",
+				"server/resources/UserResource.coffee"
+			],
+			[
+				"adminprof",
+				"public/views/templates/settings/admin-profil.ejs"
+			],
+			[
+				"adminpro",
+				"public/js/coffee/settings/admin-profil.coffee"
+			],
+			[
+				"conf",
+				"settings/config"
+			],
+			[
+				"sqlinde",
+				"server/storage/connectors/sql/index.coffee"
+			],
+			[
+				"ser",
+				"server/utils/server.coffee"
+			],
+			[
+				"con",
+				"settings/config"
+			],
+			[
+				"co",
+				"settings/config"
+			],
+			[
+				"accou",
+				"public/views/templates/settings/account.ejs"
+			],
+			[
+				"bus",
+				"server/bus/Bus.coffee"
+			],
+			[
+				"datehe",
+				"public/js/coffee/helpers/date-helper.coffee"
+			],
+			[
+				"pagema",
+				"public/js/coffee/page-manager.coffee"
+			],
+			[
+				"mecanores",
+				"server/resources/MecanoResource.coffee"
+			],
+			[
+				"intervenre",
+				"server/resources/InterventionResource.coffee"
+			],
+			[
+				"modal",
+				"public/js/coffee/modal.coffee"
+			],
+			[
+				"mo",
+				"public/js/coffee/modal.coffee"
+			],
+			[
+				"account",
+				"public/js/coffee/settings/account.coffee"
+			],
+			[
+				"intervere",
+				"server/resources/InterventionResource.coffee"
+			],
+			[
+				"signin.css",
+				"public/css/signin.css"
+			],
+			[
+				"signup.coffe",
+				"public/js/coffee/signup.coffee"
+			],
+			[
+				"mecanolist",
+				"public/js/coffee/mecano-list.coffee"
+			],
+			[
+				"interro",
+				"server/routes/interventions_routes.coffee"
+			],
+			[
+				"vehiclr",
+				"server/routes/vehicles_routes.coffee"
+			],
+			[
+				"plann",
+				"public/views/templates/settings/admin-planning.ejs"
+			],
+			[
+				"interli",
+				"public/js/coffee/interventions-list.coffee"
+			],
+			[
+				"intervent",
+				"public/js/coffee/interventions-list.coffee"
+			],
+			[
+				"accoun",
+				"public/js/coffee/settings/account.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/champii/prog/js/TowerAdventure/TowerAdventure.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 338.0,
+	"status_bar_visible": true
+}
