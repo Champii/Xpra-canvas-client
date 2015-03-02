@@ -47,6 +47,9 @@ Here is a snippet to show how to use this library :
 
 @client.on 'new-window', (win) ->
   # Deal with this plain window object
+  win.on 'drawn', (region) ->
+  win.on 'focus', ->
+
   console.log win
   # Show for exemple :
     # _events: Object
@@ -77,4 +80,5 @@ ___
 - Configuration
 - Mouse
 - Focus
+- Resize
 
