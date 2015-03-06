@@ -17,7 +17,7 @@ class XpraWindow extends EventEmitter
 
     ctx.putImageData image, params.x, params.y
 
-    @emit 'drawn', params
+    @emit 'draw', params
 
   Focus: ->
     console.log 'FOCUS', @
