@@ -52,6 +52,7 @@ class XpraHandlers extends EventEmitter
       data:             args[7]
       paquet_sequence:  args[8]
       rowstride:        args[9]
+      options:          args[10]
 
     win = @windows[params.wid]
 
@@ -62,7 +63,8 @@ class XpraHandlers extends EventEmitter
 
       params.data  = uint;
 
-    params.data = new Zlib.Inflate(params.data).decompress();
+    if params.options?['zlib'] > 0
+      params.data = new Zlib.Inflate(params.data).decompress();
 
     # console.log params
     win.Draw params

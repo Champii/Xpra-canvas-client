@@ -24,5 +24,9 @@ class XpraWindow extends EventEmitter
     @xpra.proto.Send.apply @xpra.proto, ["focus", @wid, []]
     @emit 'focus'
 
+  Resize: (model) ->
+    console.log ["configure-window", model.wid, 0, 0, model.width, model.height, model.properties]
+    @xpra.proto.Send.apply @xpra.proto, ["configure-window", model.wid, 0, 0, model.width, model.height, model.properties]
+
   Close: -> 
     @emit 'close'
