@@ -1,9 +1,21 @@
 class XpraWindow extends EventEmitter
 
   constructor: (params) ->
-    for key, val of params
-      @[key] = val if not @[key]?
 
+    accepted = [
+      'wid'
+      'width'
+      'height'
+      'x'
+      'y'
+      'offscreen'
+      'properties'
+      'xpra'
+    ]
+
+    for key, val of params when key in accepted
+      @[key] = val
+ 
     @offscreen = document.createElement('canvas')
     @offscreen.width = @width
     @offscreen.height = @height
@@ -27,6 +39,17 @@ class XpraWindow extends EventEmitter
   Resize: (model) ->
     console.log ["configure-window", model.wid, 0, 0, model.width, model.height, model.properties]
     @xpra.proto.Send.apply @xpra.proto, ["configure-window", model.wid, 0, 0, model.width, model.height, model.properties]
-
+    
   Close: -> 
     @emit 'close'
+
+  MouseDown: (params) ->
+    @Focus()
+    @xpra.proto.Send.apply @xpra.proto, ["button-action", @wid, params.button, true, [params.x, params.y], [], []]
+
+  MouseUp: (params) ->
+    @xpra.proto.Send.apply @xpra.proto, ["button-action", @wid, params.button, false, [params.x, params.y], [], []]
+
+  MouseMove: (params) ->
+    console.log 'jydsgfksdygfksudyfgsluydfgkyfgsduyfgskduyg'
+    @xpra.proto.Send.apply @xpra.proto, ["pointer-position", @wid, [params.x, params.y], [], []]
