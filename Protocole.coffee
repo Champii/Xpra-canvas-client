@@ -25,7 +25,7 @@ class Protocole
     header = header.concat(cdata);
 
     @ws.send(header);
-    console.log 'Sent', message
+    # console.log 'Sent', message
 
   ProcessBuffer: ->
     header = @ws.rQpeekBytes 8
@@ -62,17 +62,20 @@ class Protocole
 
     #decode raw packet string into objects:
     packet = null;
-    try
-      packet = bdecode(packet_data);
-      for index in @packets
-        packet[index] = @packets[index];
 
-      console.log packet
-      @packets = {};
-      @ProcessPacket(packet)
-    catch e
-      console.error("error processing packet: "+e);
-      console.error("packet_data="+packet_data);
+
+
+    # try
+    packet = bdecode(packet_data);
+    for index in @packets
+      packet[index] = @packets[index];
+
+    # console.log packet
+    @packets = {};
+    @ProcessPacket(packet)
+    # catch e
+    #   console.error("error processing packet: "+e);
+    #   console.error("packet_data="+packet_data);
 
     # see if buffer still has unread packets
     if @ws.rQlen() > 8
@@ -87,7 +90,7 @@ class Protocole
       # console.log("received a " + packet_type + " packet");
 
       fn = @handlers[packet_type];
-      console.log @handlers
+      # console.log 'recv', packet
       if (fn==undefined)
         console.error("no packet handler for "+packet_type+"!");
       else

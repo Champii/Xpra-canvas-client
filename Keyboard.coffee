@@ -40,7 +40,7 @@ class Keyboard
   ###
 
   processKeyEvent: (pressed, event) ->
-    console.log pressed, event
+    # console.log pressed, event
     # MSIE hack
     if window.event
       event = window.event
@@ -51,13 +51,13 @@ class Keyboard
       keycode = event.which
     else
       keycode = event.keyCode
-    console.log 'keycode', keycode
+    # console.log 'keycode', keycode
     if CHARCODE_TO_NAME[keycode]?
       keyname = CHARCODE_TO_NAME[keycode]
     DOM_KEY_LOCATION_RIGHT = 2
     if keyname.match('_L$') and event.location == DOM_KEY_LOCATION_RIGHT
       keyname = keyname.replace('_L', '_R')
-    console.log 'keyname', keyname
+    # console.log 'keyname', keyname
     modifiers = @get_modifiers(event)
     if @caps_lock
       modifiers.push 'lock'
@@ -80,7 +80,7 @@ class Keyboard
         keycode
         group
       ]
-      console.log 'packet', packet
+      # console.log 'packet', packet
       @xpra.proto.Send.apply @xpra.proto, packet
     return
 

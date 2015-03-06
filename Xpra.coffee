@@ -6,7 +6,7 @@ class Xpra extends EventEmitter
     @ws.on 'open', (data) =>
       @handlers = new XpraHandlers @
       @proto = new Protocole @ws, @handlers
-      @keyboad = new Keyboard @
+      @keyboard = new Keyboard @
 
       @_SendHello()
 

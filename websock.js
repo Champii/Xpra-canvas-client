@@ -179,7 +179,7 @@ function decode_message(data) {
 
 function flush() {
     if (websocket.bufferedAmount !== 0) {
-        console.log("bufferedAmount: " + websocket.bufferedAmount);
+        // console.log("bufferedAmount: " + websocket.bufferedAmount);
     }
     if (websocket.bufferedAmount < api.maxBufferedAmount) {
         //console.log("arr: " + arr);
@@ -190,8 +190,8 @@ function flush() {
         }
         return true;
     } else {
-        console.log("Delaying send, bufferedAmount: " +
-                websocket.bufferedAmount);
+        // console.log("Delaying send, bufferedAmount: " +
+        //         websocket.bufferedAmount);
         return false;
     }
 
@@ -220,7 +220,7 @@ function send_string(str) {
 
 function recv_message(e) {
     //console.log(">> recv_message: " + e.data.length);
-    console.log("recv", e);
+    // console.log("recv", e);
     try {
         decode_message(e.data);
         if (rQlen() > 0) {

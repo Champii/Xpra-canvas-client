@@ -20,6 +20,9 @@ class XpraWindow extends EventEmitter
     @emit 'draw', params
 
   Focus: ->
-    console.log 'FOCUS', @
+    console.log 'FOCUS', @wid
     @xpra.proto.Send.apply @xpra.proto, ["focus", @wid, []]
     @emit 'focus'
+
+  Close: -> 
+    @emit 'close'

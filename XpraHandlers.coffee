@@ -1,4 +1,4 @@
-class XpraHandlers
+class XpraHandlers extends EventEmitter
 
   windows: {}
 
@@ -24,6 +24,12 @@ class XpraHandlers
 
     @windows[newWin.wid + ''] = newWin
 
+    newWin.on 'focus', =>
+      @xpra.keyboard.topwindow = newWin.wid
+
+    newWin.on 'close', =>
+      delete @windows[newWin.wid]
+
     @xpra.emit 'new-window', newWin
 
     args[0] = 'map-window'
@@ -35,6 +41,7 @@ class XpraHandlers
     @xpra.proto.Send.apply @xpra.proto, args
 
   draw: (args) ->
+    now = new Date().getTime()
     params =
       wid:              args[1]
       x:                args[2]
@@ -49,7 +56,7 @@ class XpraHandlers
     win = @windows[params.wid]
 
     if typeof params.data is 'string'
-      uint = new Uint8ClampedArray(params.data.length);
+      uint = new Uint8Array(params.data.length);
       for i in [0...params.data.length]
         uint[i] = params.data .charCodeAt(i);
 
@@ -57,28 +64,36 @@ class XpraHandlers
 
     params.data = new Zlib.Inflate(params.data).decompress();
 
+    # console.log params
     win.Draw params
 
     toSend = []
     toSend.push 'damage-sequence'
-    toSend.push args[1]
     toSend.push args[8]
+    toSend.push args[1]
     toSend.push args[4]
     toSend.push args[5]
 
     # fixme: get the decode time
-    toSend.push 0
+    toSend.push (new Date().getTime()) - now
 
     @xpra.proto.Send.apply @xpra.proto, toSend
 
   'startup-complete': (args) ->
-    console.log 'STARTUP COMPLETE', @windows
+    # console.log 'STARTUP COMPLETE', @windows
     for wid, win of @windows
-      console.log 'test', win
       win.Focus()
       break
 
+  'lost-window': (args) ->
+    wid = args[1]
+    @windows[wid].Close()
 
   #TODO
   'window-metadata': (args) ->
+  'window-icon': (args) ->
+  'raise-window': (args) ->
   cursor: (args) ->
+  bell: (args) ->
+  'desktop_size': (args) ->
+  'disconnect': (args) ->
