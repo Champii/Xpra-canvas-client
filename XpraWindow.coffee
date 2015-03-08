@@ -11,6 +11,7 @@ class XpraWindow extends EventEmitter
       'offscreen'
       'properties'
       'xpra'
+      'override'
     ]
 
     for key, val of params when key in accepted
@@ -32,13 +33,12 @@ class XpraWindow extends EventEmitter
     @emit 'draw', params
 
   Focus: ->
-    console.log 'FOCUS', @wid
     @xpra.proto.Send.apply @xpra.proto, ["focus", @wid, []]
     @emit 'focus'
 
-  Resize: (model) ->
-    console.log ["configure-window", model.wid, 0, 0, model.width, model.height, model.properties]
-    @xpra.proto.Send.apply @xpra.proto, ["configure-window", model.wid, 0, 0, model.width, model.height, model.properties]
+  ResizeMove: (model) ->
+    console.log ["configure-window", model.wid, model.x, model.y, model.width, model.height, model.properties]
+    @xpra.proto.Send.apply @xpra.proto, ["configure-window", model.wid, model.x, model.y, model.width, model.height, model.properties]
     
   Close: -> 
     @emit 'close'
@@ -51,5 +51,4 @@ class XpraWindow extends EventEmitter
     @xpra.proto.Send.apply @xpra.proto, ["button-action", @wid, params.button, false, [params.x, params.y], [], []]
 
   MouseMove: (params) ->
-    console.log 'jydsgfksdygfksudyfgsluydfgkyfgsduyfgskduyg'
     @xpra.proto.Send.apply @xpra.proto, ["pointer-position", @wid, [params.x, params.y], [], []]

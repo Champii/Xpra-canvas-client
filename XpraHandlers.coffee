@@ -10,6 +10,12 @@ class XpraHandlers extends EventEmitter
     @xpra.proto.Send.apply @xpra.proto, ['ping_echo', args[1], 0, 0, 0, 0]
 
   "new-window": (args) ->
+    @_NewWindow args, false
+
+  "new-override-redirect": (args) ->
+    @_NewWindow args, true
+
+  _NewWindow: (args, override) ->
     params =
       wid:        args[1]
       x:          args[2]
@@ -17,6 +23,7 @@ class XpraHandlers extends EventEmitter
       width:      args[4]
       height:     args[5]
       properties: args[6]
+      override:   override
       xpra:       @xpra
 
     # console.log 'new win', @xpra.XpraWindow
@@ -55,6 +62,7 @@ class XpraHandlers extends EventEmitter
       options:          args[10]
 
     win = @windows[params.wid]
+    return if not win?
 
     if typeof params.data is 'string'
       uint = new Uint8Array(params.data.length);
