@@ -1,6 +1,7 @@
 class XpraHandlers extends EventEmitter
 
   windows: {}
+  focused: -1
 
   constructor: (@xpra) ->
 
@@ -26,16 +27,14 @@ class XpraHandlers extends EventEmitter
       override:   override
       xpra:       @xpra
 
-    # console.log 'new win', @xpra.XpraWindow
     newWin = new XpraWindow params
 
     @windows[newWin.wid + ''] = newWin
 
-    newWin.on 'focus', =>
-      @xpra.keyboard.topwindow = newWin.wid
-
     newWin.on 'close', =>
       delete @windows[newWin.wid]
+
+    # newWin.Focus()
 
     @xpra.emit 'new-window', newWin
 
@@ -67,7 +66,7 @@ class XpraHandlers extends EventEmitter
     if typeof params.data is 'string'
       uint = new Uint8Array(params.data.length);
       for i in [0...params.data.length]
-        uint[i] = params.data .charCodeAt(i);
+        uint[i] = params.data.charCodeAt(i);
 
       params.data  = uint;
 
@@ -76,6 +75,7 @@ class XpraHandlers extends EventEmitter
 
     # console.log params
     win.Draw params
+    win.emit 'draw'
 
     toSend = []
     toSend.push 'damage-sequence'
@@ -93,11 +93,13 @@ class XpraHandlers extends EventEmitter
     # console.log 'STARTUP COMPLETE', @windows
     for wid, win of @windows
       win.Focus()
+      win.emit
       break
 
   'lost-window': (args) ->
     wid = args[1]
     @windows[wid].Close()
+    @windows[wid].emit 'close'
 
   #TODO
   'window-metadata': (args) ->

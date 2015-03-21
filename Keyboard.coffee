@@ -80,7 +80,7 @@ class Keyboard
         keycode
         group
       ]
-      # console.log 'packet', packet
+      console.log 'packet', packet
       @xpra.proto.Send.apply @xpra.proto, packet
     return
 
